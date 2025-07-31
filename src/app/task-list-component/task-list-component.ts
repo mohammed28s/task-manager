@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from '../tasks.service';
 import { Task } from '../task'; 
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-task-list-component',
   templateUrl: './task-list-component.html',
+  imports: [CommonModule],
   styleUrl: './task-list-component.css'
 })
 
