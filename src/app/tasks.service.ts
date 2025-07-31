@@ -7,7 +7,7 @@ import { Task } from './task'
 export class TaskService {
 
   private tasks: Task[] = [];
-  private nextId: number = 1;
+  private nextId: number = 1;  // this will be incurment for each new task 
 
   // This method for fetching all data  //GET
   getTasks(): Task[] {  
