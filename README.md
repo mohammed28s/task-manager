@@ -1,44 +1,33 @@
-Task Manager
-A simple Angular application to manage tasks, built as a beginner-friendly project. Users can add tasks, view them in a list, and delete them.
-Features
+# 🚀 Task Manager
 
-Add new tasks with a title (alphanumeric and spaces only, with validation).
-View all tasks in a styled list.
-Delete tasks.
-Responsive design for mobile and desktop.
-Modern UI with hover effects and smooth transitions.
+A simple Angular application to manage tasks, built as a beginner-friendly project.  
+Users can add tasks, view them in a list, and delete them.
 
-Technologies
+---
 
-Angular 18
-TypeScript
-CSS
-HTML
+## ✨ Features
 
-Setup
+- ✅ Add new tasks with a title (alphanumeric and spaces only, with validation).  
+- 📋 View all tasks in a styled list.  
+- ❌ Delete tasks.  
+- 📱 Responsive design for mobile and desktop.  
+- 🎨 Modern UI with hover effects and smooth transitions.
 
-Clone the repository:git clone https://github.com/your-username/task-manager.git
+---
 
+## 🛠️ Technologies
 
-Navigate to the project folder:cd task-manager
+- <span style="color:#dd1b16">Angular 18</span>  
+- <span style="color:#3178c6">TypeScript</span>  
+- <span style="color:#563d7c">CSS</span>  
+- <span style="color:#e34c26">HTML</span>
 
+---
 
-Install dependencies:npm install
+## ⚙️ Setup
 
-
-Start the development server:ng serve
-
-
-Open http://localhost:4200/ in your browser.
-
-Usage
-
-Enter a task title (letters, numbers, spaces only) in the input field and click "Add Task."
-View tasks in the list below.
-Click "Delete" to remove a task.
-Validation prevents empty inputs or special characters.
-
-Screenshots
-(Add a screenshot of your app here by uploading an image to GitHub and linking it.)
-License
-MIT License
+```bash
+git clone https://github.com/your-username/task-manager.git
+cd task-manager
+npm install
+ng serve
