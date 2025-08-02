@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { TaskService } from '../tasks.service';
-
+import { FormsModule } from '@angular/forms'; // Import FormsModule for ngModel
 @Component({
   selector: 'app-add-task-component',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './add-task-component.html',
   styleUrl: './add-task-component.css'
 })
