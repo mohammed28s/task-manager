@@ -1,0 +1,74 @@
+h2 {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+input.ng-invalid.ng-touched {
+  border-color: #dc3545;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.add-task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+  .add-task-container {
+    flex-direction: column;
+  }
+}

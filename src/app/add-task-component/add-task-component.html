@@ -1,3 +1,11 @@
 <h2>Add New Task</h2>
-<input [(ngModel)] = "newTaskTitle" placeholder="Task Title">
-<button (click)="addTask()">Add Task</button>
+<div class="add-task-container">
+  <form [formGroup]="taskForm" (ngSubmit)="addTask()">
+    <input formControlName="title" placeholder="Task title">
+    <button type="submit" [disabled]="taskForm.invalid">Add Task</button>
+  </form>
+  <div class="error" *ngIf="title?.touched && title?.errors">
+    <span *ngIf="title?.errors?.['required']">Task title is required.</span>
+    <span *ngIf="title?.errors?.['specialCharacters']"> Special characters are not allowed.</span>
+  </div>
+</div>
