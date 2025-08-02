@@ -6,6 +6,6 @@
   </form>
   <div class="error" *ngIf="title?.touched && title?.errors">
     <span *ngIf="title?.errors?.['required']">Task title is required.</span>
-    <span *ngIf="title?.errors?.['specialCharacters']"> Special characters are not allowed.</span>
+    <span *ngIf="title?.errors?.['specialCharacters']">Special characters are not allowed.</span>
   </div>
 </div>
