@@ -58,6 +58,7 @@ Prerequisites:
 Node.js (v16 or higher) and npm (download here)
 Angular CLI installed globally:
 npm install -g @angular/cli
+
 Usage 📖
 Add a Task:
 Enter a task title (e.g., "Buy groceries") in the input field. ✍️
@@ -78,8 +79,10 @@ Push to the branch:
 git push origin feature/your-feature
 Open a Pull Request. 📥
 Please ensure your code follows Angular best practices and includes relevant tests.
+
 License 📜
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 Contact 📬
 Feel free to reach out for questions or feedback:
 GitHub: mohammed28s 🐙
