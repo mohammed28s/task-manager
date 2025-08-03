@@ -83,11 +83,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact 📬
 Feel free to reach out for questions or feedback:
 GitHub: mohammed28s 🐙
-LinkedIn:  💼
+LinkedIn: linkedin.com/in/mohammed-모하마드-86390a255  💼
 
 ---
 
-Let me know if you want to:
-- Replace `your-username` with your actual GitHub username.
-- Customize the LinkedIn link.
-- Add back screenshots later with image links.
